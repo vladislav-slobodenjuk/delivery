@@ -29,7 +29,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ mb: 2 }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* Logo link */}
@@ -138,7 +138,7 @@ const ResponsiveAppBar = () => {
               <Button
                 onClick={handleCloseNavMenu}
                 component={NavLink}
-                to="/"
+                to="/shops"
                 exact="true"
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >

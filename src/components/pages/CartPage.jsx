@@ -5,3 +5,5 @@ export function CartPage() {
     </p>
   );
 }
+// <Route path="/shops" element={<ShopPage />} />
+// <Route path="cart" element={<CartPage />} />
